@@ -67,6 +67,7 @@ public class Semana extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         lblMensaje.setText("Hola....");
         lblMensaje1.setText("Como te va...");
+        lblMensaje2.setText("A mi me va muy bien");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     

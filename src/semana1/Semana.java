@@ -16,6 +16,7 @@ public class Semana extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         lblMensaje = new javax.swing.JLabel();
+        lblMensaje1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -29,6 +30,8 @@ public class Semana extends javax.swing.JFrame {
         lblMensaje.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblMensaje.setText("jLabel1");
 
+        lblMensaje1.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -40,7 +43,10 @@ public class Semana extends javax.swing.JFrame {
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(211, 211, 211)
-                        .addComponent(lblMensaje)))
+                        .addComponent(lblMensaje))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(221, 221, 221)
+                        .addComponent(lblMensaje1)))
                 .addContainerGap(208, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -50,7 +56,9 @@ public class Semana extends javax.swing.JFrame {
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(56, 56, 56)
                 .addComponent(lblMensaje)
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addGap(26, 26, 26)
+                .addComponent(lblMensaje1)
+                .addContainerGap(167, Short.MAX_VALUE))
         );
 
         pack();
@@ -58,6 +66,7 @@ public class Semana extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         lblMensaje.setText("Hola....");
+        lblMensaje1.setText("Como te va...");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     
@@ -96,5 +105,6 @@ public class Semana extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel lblMensaje;
+    private javax.swing.JLabel lblMensaje1;
     // End of variables declaration//GEN-END:variables
 }
